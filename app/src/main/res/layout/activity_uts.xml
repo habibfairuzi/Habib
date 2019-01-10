@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+>
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.70"
+            android:scaleType="centerCrop" android:layout_alignParentStart="true" android:layout_alignParentTop="true"/>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+    >
+
+        <TextView
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:text="Nama : Habib Fairuzi"
+                android:textSize="30dp"
+                android:background="#ec4b1f"
+        />
+        <TextView
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:text="NIM : 170202078"
+                android:textSize="30dp"
+                android:background="#d4ae15"
+        />
+
+        <TextView
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:text="Prodi: Teknik Informatika "
+                android:textSize="30dp"
+                android:background="#6648ef15"/>
+        />
+
+        <TextView
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:text="Alamat : Kelayu Selatan"
+                android:textSize="30dp"
+                android:background="#770a9cea"
+        />
+
+        <TextView
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:text="TTL : Kelayu,11-Maret-1998"
+                android:textSize="30dp"
+                android:background="#aa0909da"/>
+
+
+    </LinearLayout>
+</RelativeLayout>
